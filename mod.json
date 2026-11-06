@@ -1,0 +1,98 @@
+{
+	"geode": "4.0.0",
+	"gd": "*",
+	"version": "v1.0.0",
+	"id": "yourname.main-level-editor",
+	"name": "Main Level Editor",
+	"developer": "yourname",
+	"description": "Change the name, ID and difficulty face of any main level from the mod settings.",
+	"settings": {
+		"name-1":  { "type": "string", "name": "1 - Name (Stereo Madness)",        "default": "" },
+		"id-1":    { "type": "int",    "name": "1 - ID (0 = unchanged)",            "default": 0, "min": 0 },
+		"face-1":  { "type": "string", "name": "1 - Difficulty Face",               "default": "Default", "one-of": ["Default","Auto","N/A","Easy","Normal","Hard","Harder","Insane","Easy Demon","Medium Demon","Hard Demon","Insane Demon","Extreme Demon"] },
+
+		"name-2":  { "type": "string", "name": "2 - Name (Back on Track)",          "default": "" },
+		"id-2":    { "type": "int",    "name": "2 - ID (0 = unchanged)",            "default": 0, "min": 0 },
+		"face-2":  { "type": "string", "name": "2 - Difficulty Face",               "default": "Default", "one-of": ["Default","Auto","N/A","Easy","Normal","Hard","Harder","Insane","Easy Demon","Medium Demon","Hard Demon","Insane Demon","Extreme Demon"] },
+
+		"name-3":  { "type": "string", "name": "3 - Name (Polargeist)",             "default": "" },
+		"id-3":    { "type": "int",    "name": "3 - ID (0 = unchanged)",            "default": 0, "min": 0 },
+		"face-3":  { "type": "string", "name": "3 - Difficulty Face",               "default": "Default", "one-of": ["Default","Auto","N/A","Easy","Normal","Hard","Harder","Insane","Easy Demon","Medium Demon","Hard Demon","Insane Demon","Extreme Demon"] },
+
+		"name-4":  { "type": "string", "name": "4 - Name (Dry Out)",                "default": "" },
+		"id-4":    { "type": "int",    "name": "4 - ID (0 = unchanged)",            "default": 0, "min": 0 },
+		"face-4":  { "type": "string", "name": "4 - Difficulty Face",               "default": "Default", "one-of": ["Default","Auto","N/A","Easy","Normal","Hard","Harder","Insane","Easy Demon","Medium Demon","Hard Demon","Insane Demon","Extreme Demon"] },
+
+		"name-5":  { "type": "string", "name": "5 - Name (Base After Base)",        "default": "" },
+		"id-5":    { "type": "int",    "name": "5 - ID (0 = unchanged)",            "default": 0, "min": 0 },
+		"face-5":  { "type": "string", "name": "5 - Difficulty Face",               "default": "Default", "one-of": ["Default","Auto","N/A","Easy","Normal","Hard","Harder","Insane","Easy Demon","Medium Demon","Hard Demon","Insane Demon","Extreme Demon"] },
+
+		"name-6":  { "type": "string", "name": "6 - Name (Can't Let Go)",           "default": "" },
+		"id-6":    { "type": "int",    "name": "6 - ID (0 = unchanged)",            "default": 0, "min": 0 },
+		"face-6":  { "type": "string", "name": "6 - Difficulty Face",               "default": "Default", "one-of": ["Default","Auto","N/A","Easy","Normal","Hard","Harder","Insane","Easy Demon","Medium Demon","Hard Demon","Insane Demon","Extreme Demon"] },
+
+		"name-7":  { "type": "string", "name": "7 - Name (Jumper)",                 "default": "" },
+		"id-7":    { "type": "int",    "name": "7 - ID (0 = unchanged)",            "default": 0, "min": 0 },
+		"face-7":  { "type": "string", "name": "7 - Difficulty Face",               "default": "Default", "one-of": ["Default","Auto","N/A","Easy","Normal","Hard","Harder","Insane","Easy Demon","Medium Demon","Hard Demon","Insane Demon","Extreme Demon"] },
+
+		"name-8":  { "type": "string", "name": "8 - Name (Time Machine)",           "default": "" },
+		"id-8":    { "type": "int",    "name": "8 - ID (0 = unchanged)",            "default": 0, "min": 0 },
+		"face-8":  { "type": "string", "name": "8 - Difficulty Face",               "default": "Default", "one-of": ["Default","Auto","N/A","Easy","Normal","Hard","Harder","Insane","Easy Demon","Medium Demon","Hard Demon","Insane Demon","Extreme Demon"] },
+
+		"name-9":  { "type": "string", "name": "9 - Name (Cycles)",                 "default": "" },
+		"id-9":    { "type": "int",    "name": "9 - ID (0 = unchanged)",            "default": 0, "min": 0 },
+		"face-9":  { "type": "string", "name": "9 - Difficulty Face",               "default": "Default", "one-of": ["Default","Auto","N/A","Easy","Normal","Hard","Harder","Insane","Easy Demon","Medium Demon","Hard Demon","Insane Demon","Extreme Demon"] },
+
+		"name-10": { "type": "string", "name": "10 - Name (xStep)",                 "default": "" },
+		"id-10":   { "type": "int",    "name": "10 - ID (0 = unchanged)",           "default": 0, "min": 0 },
+		"face-10": { "type": "string", "name": "10 - Difficulty Face",              "default": "Default", "one-of": ["Default","Auto","N/A","Easy","Normal","Hard","Harder","Insane","Easy Demon","Medium Demon","Hard Demon","Insane Demon","Extreme Demon"] },
+
+		"name-11": { "type": "string", "name": "11 - Name (Clutterfunk)",           "default": "" },
+		"id-11":   { "type": "int",    "name": "11 - ID (0 = unchanged)",           "default": 0, "min": 0 },
+		"face-11": { "type": "string", "name": "11 - Difficulty Face",              "default": "Default", "one-of": ["Default","Auto","N/A","Easy","Normal","Hard","Harder","Insane","Easy Demon","Medium Demon","Hard Demon","Insane Demon","Extreme Demon"] },
+
+		"name-12": { "type": "string", "name": "12 - Name (Theory of Everything)",  "default": "" },
+		"id-12":   { "type": "int",    "name": "12 - ID (0 = unchanged)",           "default": 0, "min": 0 },
+		"face-12": { "type": "string", "name": "12 - Difficulty Face",              "default": "Default", "one-of": ["Default","Auto","N/A","Easy","Normal","Hard","Harder","Insane","Easy Demon","Medium Demon","Hard Demon","Insane Demon","Extreme Demon"] },
+
+		"name-13": { "type": "string", "name": "13 - Name (Electroman Adventures)", "default": "" },
+		"id-13":   { "type": "int",    "name": "13 - ID (0 = unchanged)",           "default": 0, "min": 0 },
+		"face-13": { "type": "string", "name": "13 - Difficulty Face",              "default": "Default", "one-of": ["Default","Auto","N/A","Easy","Normal","Hard","Harder","Insane","Easy Demon","Medium Demon","Hard Demon","Insane Demon","Extreme Demon"] },
+
+		"name-14": { "type": "string", "name": "14 - Name (Clubstep)",              "default": "" },
+		"id-14":   { "type": "int",    "name": "14 - ID (0 = unchanged)",           "default": 0, "min": 0 },
+		"face-14": { "type": "string", "name": "14 - Difficulty Face",              "default": "Default", "one-of": ["Default","Auto","N/A","Easy","Normal","Hard","Harder","Insane","Easy Demon","Medium Demon","Hard Demon","Insane Demon","Extreme Demon"] },
+
+		"name-15": { "type": "string", "name": "15 - Name (Electrodynamix)",        "default": "" },
+		"id-15":   { "type": "int",    "name": "15 - ID (0 = unchanged)",           "default": 0, "min": 0 },
+		"face-15": { "type": "string", "name": "15 - Difficulty Face",              "default": "Default", "one-of": ["Default","Auto","N/A","Easy","Normal","Hard","Harder","Insane","Easy Demon","Medium Demon","Hard Demon","Insane Demon","Extreme Demon"] },
+
+		"name-16": { "type": "string", "name": "16 - Name (Hexagon Force)",         "default": "" },
+		"id-16":   { "type": "int",    "name": "16 - ID (0 = unchanged)",           "default": 0, "min": 0 },
+		"face-16": { "type": "string", "name": "16 - Difficulty Face",              "default": "Default", "one-of": ["Default","Auto","N/A","Easy","Normal","Hard","Harder","Insane","Easy Demon","Medium Demon","Hard Demon","Insane Demon","Extreme Demon"] },
+
+		"name-17": { "type": "string", "name": "17 - Name (Blast Processing)",      "default": "" },
+		"id-17":   { "type": "int",    "name": "17 - ID (0 = unchanged)",           "default": 0, "min": 0 },
+		"face-17": { "type": "string", "name": "17 - Difficulty Face",              "default": "Default", "one-of": ["Default","Auto","N/A","Easy","Normal","Hard","Harder","Insane","Easy Demon","Medium Demon","Hard Demon","Insane Demon","Extreme Demon"] },
+
+		"name-18": { "type": "string", "name": "18 - Name (Theory of Everything 2)","default": "" },
+		"id-18":   { "type": "int",    "name": "18 - ID (0 = unchanged)",           "default": 0, "min": 0 },
+		"face-18": { "type": "string", "name": "18 - Difficulty Face",              "default": "Default", "one-of": ["Default","Auto","N/A","Easy","Normal","Hard","Harder","Insane","Easy Demon","Medium Demon","Hard Demon","Insane Demon","Extreme Demon"] },
+
+		"name-19": { "type": "string", "name": "19 - Name (Geometrical Dominator)", "default": "" },
+		"id-19":   { "type": "int",    "name": "19 - ID (0 = unchanged)",           "default": 0, "min": 0 },
+		"face-19": { "type": "string", "name": "19 - Difficulty Face",              "default": "Default", "one-of": ["Default","Auto","N/A","Easy","Normal","Hard","Harder","Insane","Easy Demon","Medium Demon","Hard Demon","Insane Demon","Extreme Demon"] },
+
+		"name-20": { "type": "string", "name": "20 - Name (Deadlocked)",            "default": "" },
+		"id-20":   { "type": "int",    "name": "20 - ID (0 = unchanged)",           "default": 0, "min": 0 },
+		"face-20": { "type": "string", "name": "20 - Difficulty Face",              "default": "Default", "one-of": ["Default","Auto","N/A","Easy","Normal","Hard","Harder","Insane","Easy Demon","Medium Demon","Hard Demon","Insane Demon","Extreme Demon"] },
+
+		"name-21": { "type": "string", "name": "21 - Name (Fingerdash)",            "default": "" },
+		"id-21":   { "type": "int",    "name": "21 - ID (0 = unchanged)",           "default": 0, "min": 0 },
+		"face-21": { "type": "string", "name": "21 - Difficulty Face",              "default": "Default", "one-of": ["Default","Auto","N/A","Easy","Normal","Hard","Harder","Insane","Easy Demon","Medium Demon","Hard Demon","Insane Demon","Extreme Demon"] },
+
+		"name-22": { "type": "string", "name": "22 - Name (Dash)",                  "default": "" },
+		"id-22":   { "type": "int",    "name": "22 - ID (0 = unchanged)",           "default": 0, "min": 0 },
+		"face-22": { "type": "string", "name": "22 - Difficulty Face",              "default": "Default", "one-of": ["Default","Auto","N/A","Easy","Normal","Hard","Harder","Insane","Easy Demon","Medium Demon","Hard Demon","Insane Demon","Extreme Demon"] }
+	}
+}
